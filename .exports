@@ -1,0 +1,18 @@
+# Make vim the default editor
+export EDITOR="vim";
+
+# Make some commands not show up in history
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help";
+
+# Highlight section titles in manual pages
+export LESS_TERMCAP_md="${yellow}";
+
+# Don’t clear the screen after quitting a manual page
+export MANPAGER="less -X";
+
+# Always enable colored `grep` output
+export GREP_OPTIONS="--color=auto";
+
+# Link Homebrew casks in `/Applications` rather than `~/Applications`
+# More info: https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
+export HOMEBREW_CASK_OPTS="--appdir=/Applications";
