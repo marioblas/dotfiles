@@ -29,6 +29,9 @@
 	branches = branch -a
 	remotes = remote -v
 
+	# Unstage a change if you haven't committed it
+	unstage = reset HEAD
+
 	# Amend the currently staged files to the latest commit
 	amend = commit --amend --reuse-message=HEAD
 
