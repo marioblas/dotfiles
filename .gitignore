@@ -9,3 +9,15 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# Sass:
+# Cache files
+.sass-cache
+# Sourcemaps
+*.css.map
+
+# Node:
+# Dependency directory (https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git-)
+node_modules
+# Debug log from npm
+npm-debug.log
