@@ -15,6 +15,11 @@ Requires [Homebrew](http://brew.sh/).
 ```bash
 ./brew.sh
 ```
+### Sensible OS X defaults
+When setting up a new Mac, you may want to set some sensible OS X defaults:
+```bash
+./.osx
+```
 
 ## Private config
 You can create a file `~/.extra` and add your private configuration.
