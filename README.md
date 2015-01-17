@@ -18,7 +18,7 @@ Requires [Homebrew](http://brew.sh/).
 ### Sensible OS X defaults
 When setting up a new Mac, you may want to set some sensible OS X defaults:
 ```bash
-./.osx
+./osx.sh
 ```
 
 ## Private config
@@ -50,7 +50,6 @@ Also you can use this file for override settings, functions and aliases.
 
 ### Editor
 * `.editorconfig` - More info [editorconfig.org](http://editorconfig.org/)
-
 * `bin/subl` - Sublime Text OS X command line tool `subl`
 
 ### Git
