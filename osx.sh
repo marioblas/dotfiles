@@ -10,9 +10,13 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # iTerm 2                                                                     #
 ###############################################################################
 
-# Don’t display the annoying prompt when quitting iTerm
 # Note: this cannot be done from within iTerm...
+
+# Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
+# Show border around window
+defaults write com.googlecode.iterm2 UseBorder -bool true
 
 # Install the Solarized Dark theme for iTerm
 open "${HOME}/init/Solarized Dark.itermcolors"
