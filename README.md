@@ -45,16 +45,17 @@ Also you can use this file for override settings, functions and aliases.
 * `.bashrc`
 * `.exports`
 * `.functions`
+* `.inputrc`
 * `.path`
 * `.extra`
 
 ### Editor
-* `.editorconfig` - More info [editorconfig.org](http://editorconfig.org/)
-* `bin/subl` - Sublime Text OS X command line tool `subl`
+* `.editorconfig` - More info at [editorconfig.org](http://editorconfig.org/)
+* `bin/subl` - Sublime Text command line tool `subl` for OS X
 
 ### Git
 * `.gitconfig`
 * `.gitignore`
 
 ## Thanks to...
-This project is principally for me and is based on [Mathias's dotfiles](https://github.com/mathiasbynens/dotfiles). His repository and contributors are awesome!
+This project is principally for me and is based on Mathias's dotfiles. His [repository](https://github.com/mathiasbynens/dotfiles) and [contributors](https://github.com/mathiasbynens/dotfiles/graphs/contributors) are awesome!
