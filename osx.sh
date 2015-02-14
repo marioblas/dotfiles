@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Note: for show app defaults use → `defaults read -app <application>`
+
 # Ask for the administrator password upfront
 sudo -v
 
