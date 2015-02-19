@@ -1,6 +1,7 @@
 # Mario's dotfiles
 
 ## Installation
+
 ### General
 The `bootstrap.sh` pulls the latest version and copy the files to `~`.
 ```bash
@@ -10,11 +11,18 @@ To update just `cd` to your `dotfiles` repository and then:
 ```bash
 source bootstrap.sh
 ```
+
 ### Homebrew packages
 Requires [Homebrew](http://brew.sh/).
 ```bash
 ./brew.sh
 ```
+
+### Node/io.js packages
+```bash
+./npm.sh
+```
+
 ### Sensible OS X defaults
 When setting up a new Mac, you may want to set some sensible OS X defaults:
 ```bash
