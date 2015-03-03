@@ -35,8 +35,8 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Show border around window
 defaults write com.googlecode.iterm2 UseBorder -bool true
 
-# Install the Solarized Dark theme for iTerm
-open "${HOME}/init/Solarized Dark.itermcolors"
+# Install the Cobalt 2 theme for iTerm
+open "${HOME}/init/Cobalt 2.itermcolors"
 
 ###############################################################################
 # Transmission                                                                #
