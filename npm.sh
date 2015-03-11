@@ -18,5 +18,8 @@ npm install -g jshint
 # CSSLint
 npm install -g csslint
 
+# Mongo hacker
+npm install -g mongo-hacker
+
 # Trash
 npm install -g trash
