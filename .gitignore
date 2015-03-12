@@ -1,3 +1,11 @@
+# Useful .gitignore templates:
+# https://github.com/github/gitignore
+
+# Linux:
+*~
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
