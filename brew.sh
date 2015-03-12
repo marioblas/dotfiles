@@ -21,5 +21,8 @@ brew install bash-completion
 # Install Node.js and npm
 brew install node
 
+# Install MongoDB
+brew install mongodb
+
 # Remove outdated versions from the cellar
 brew cleanup
