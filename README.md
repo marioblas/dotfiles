@@ -59,7 +59,7 @@ Also you can use this file for override settings, functions and aliases.
 
 ### Editor
 * `.editorconfig` - More info at [editorconfig.org](http://editorconfig.org/)
-* `bin/subl` - Sublime Text command line tool `subl` for OS X
+* `bin/subl` - Sublime Text command line tool *subl* for OS X
 
 ### Git
 * `.gitconfig`
@@ -67,3 +67,6 @@ Also you can use this file for override settings, functions and aliases.
 
 ## Thanks to...
 This project is principally for me and is based on Mathias's dotfiles. His [repository](https://github.com/mathiasbynens/dotfiles) and [contributors](https://github.com/mathiasbynens/dotfiles/graphs/contributors) are awesome!
+
+## License
+MIT © [marioblas](https://github.com/marioblas)
