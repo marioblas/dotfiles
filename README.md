@@ -20,6 +20,12 @@ Requires [Homebrew](http://brew.sh/).
 ./brew.sh
 ```
 
+### Homebrew Cask apps
+Requires [Homebrew Cask](http://caskroom.io/)
+```bash
+./brew-cask.sh
+```
+
 ### Node/io.js packages
 ```bash
 ./npm.sh
