@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update npm itself
+npm install -g npm@latest
+
 # Yeoman
 npm install -g yo
 
@@ -23,3 +26,6 @@ npm install -g mongo-hacker
 
 # Trash
 npm install -g trash
+
+# Delete data out of the cache folder
+npm cache clean
