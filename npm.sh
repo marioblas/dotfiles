@@ -12,6 +12,9 @@ npm install -g grunt-cli
 # Gulp
 npm install -g gulp
 
+# Bower
+npm install -g bower
+
 # Browser Sync
 npm install -g browser-sync
 
