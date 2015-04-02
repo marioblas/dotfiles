@@ -27,6 +27,7 @@ Requires [Homebrew Cask](http://caskroom.io/)
 ```
 
 ### Node/io.js packages
+Install/update npm itself and npm packages
 ```bash
 ./npm.sh
 ```
