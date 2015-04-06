@@ -24,6 +24,9 @@ npm install -g jshint
 # CSSLint
 npm install -g csslint
 
+# PageSpeed Insights
+npm install -g psi
+
 # Mongo hacker
 npm install -g mongo-hacker
 
