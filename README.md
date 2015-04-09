@@ -21,13 +21,13 @@ Requires [Homebrew](http://brew.sh/).
 ```
 
 ### Homebrew Cask apps
-Requires [Homebrew Cask](http://caskroom.io/)
+Take a look at [Homebrew Cask](http://caskroom.io/) and [Homebrew Cask Versions](https://github.com/caskroom/homebrew-versions).
 ```bash
 ./brew-cask.sh
 ```
 
 ### Node/io.js packages
-Install/update npm itself and npm packages
+Install/update npm itself and npm packages.
 ```bash
 ./npm.sh
 ```
