@@ -27,6 +27,14 @@ Take a look at [Homebrew Cask](http://caskroom.io/) and [Homebrew Cask Versions]
 ```
 
 ### Node/io.js packages
+
+#### nvm
+Install Node Version Manager, then node and io.js
+```bash
+./nvm.sh
+```
+
+#### npm
 Install/update npm itself and npm packages.
 ```bash
 ./npm.sh

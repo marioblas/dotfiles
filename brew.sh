@@ -18,9 +18,6 @@ brew install git
 # fi
 brew install bash-completion
 
-# Install Node.js and npm
-brew install node
-
 # Install MongoDB
 brew install mongodb
 

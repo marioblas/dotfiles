@@ -32,6 +32,12 @@ elif [ -f /etc/bash_completion ]; then
 	source /etc/bash_completion;
 fi;
 
+# Activate NVM (Node Version Manager) and bash completion
+if [ -f ~/.nvm/nvm.sh ]; then
+	source ~/.nvm/nvm.sh
+	[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
+fi
+
 # Enable tab completion for `g` by marking it as an alias for `git`
 if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
 	complete -o default -o nospace -F _git g;
