@@ -6,17 +6,18 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
+# Install Bash 4
+# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh -s /usr/local/bin/bash`.
+brew install bash
+# Regular bash-completion package is held back to an older release, so we get latest from versions.
+# github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
+brew tap homebrew/versions
+brew install homebrew/versions/bash-completion2
+
 # Install updated Git
 # Note: Don't forget to export the PATH /usr/local/bin (included in .path)
 # Check that it works by executing `which git`. It should return "/usr/local/bin/git"
 brew install git
-
-# Install bash completion
-# Note: Add next lines to .bash_profile (also included):
-# if [ -f `brew --prefix`/etc/bash_completion ]; then
-# 	. `brew --prefix`/etc/bash_completion
-# fi
-brew install bash-completion
 
 # Install MongoDB
 brew install mongodb
