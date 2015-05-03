@@ -27,8 +27,11 @@ npm install -g csslint
 # PageSpeed Insights
 npm install -g psi
 
-# Mongo hacker
+# Mongo Hacker
 npm install -g mongo-hacker
+
+# Git Open
+npm install -g git-open
 
 # Trash
 npm install -g trash

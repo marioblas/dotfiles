@@ -83,7 +83,6 @@ Also you can use this file for override settings, functions and aliases.
 
 ### Commands
 * `bin/subl` - Sublime Text command line tool *subl* for OS X
-* `bin/git-open` - Open the Github/Bitbucket/Gitlab... page for a repository using *git open*
 
 ## Thanks to...
 This project is principally for me and is based on Mathias's dotfiles. His [repository](https://github.com/mathiasbynens/dotfiles) and [contributors](https://github.com/mathiasbynens/dotfiles/graphs/contributors) are awesome!
