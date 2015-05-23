@@ -24,8 +24,8 @@ Thumbs.db
 # Sourcemaps
 *.css.map
 
-# Node:
-# Dependency directory (https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git-)
+# Node & npm:
+# Dependency directory (https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git)
 node_modules
 # Debug log from npm
 npm-debug.log
