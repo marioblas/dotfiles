@@ -25,5 +25,8 @@ brew install node
 # Install MongoDB
 brew install mongodb
 
+# Install Tree
+brew install tree
+
 # Remove outdated versions from the cellar
 brew cleanup
