@@ -269,3 +269,10 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components|.DS_Store' --dirsfirst "$@" | less -FRNX;
 }
+
+# Who is using the laptop's iSight camera?
+camerausedby() {
+    echo "Checking to see who is using the iSight camera… 📷"
+    usedby=$(lsof | grep -w "AppleCamera\|USBVDC\|iSight" | awk '{printf $2"\n"}' | xargs ps)
+    echo -e "Recent camera uses:\n$usedby"
+}
