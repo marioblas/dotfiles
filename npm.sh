@@ -15,14 +15,17 @@ npm install -g gulp
 # Bower
 npm install -g bower
 
-# Browser Sync
-npm install -g browser-sync
-
 # JSHint
 npm install -g jshint
 
+# ESLint
+npm install -g eslint
+
 # CSSLint
 npm install -g csslint
+
+# Browser Sync
+npm install -g browser-sync
 
 # PageSpeed Insights
 npm install -g psi
