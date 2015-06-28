@@ -18,6 +18,9 @@ npm install -g bower
 # JSHint
 npm install -g jshint
 
+# JSCS
+npm install -g jscs
+
 # ESLint
 npm install -g eslint
 
