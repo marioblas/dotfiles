@@ -9,9 +9,13 @@ indent_style = tab
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.md]
-trim_trailing_whitespace = false
+[*.scss]
+indent_style = space
+indent_size = 2
 
 [{package.json,*.yml}]
 indent_style = space
 indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
