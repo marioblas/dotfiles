@@ -1,10 +1,8 @@
 # Useful .gitignore templates:
 # https://github.com/github/gitignore
 
-# Linux:
+# Linux
 *~
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
 
 # Folder view configuration files
 .DS_Store
@@ -18,14 +16,13 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-# Sass:
-# Cache files
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# Sass
 .sass-cache
-# Sourcemaps
 *.css.map
 
-# Node & npm:
-# Dependency directory (https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git)
+# Node & npm
 node_modules
-# Debug log from npm
 npm-debug.log
