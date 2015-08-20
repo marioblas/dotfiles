@@ -39,6 +39,9 @@ npm install -g mongo-hacker
 # Git Open
 npm install -g git-open
 
+# Speed test
+npm install -g speed-test
+
 # Trash
 npm install -g trash
 
