@@ -262,12 +262,14 @@ function o() {
 	fi;
 }
 
-# `tre` is a shorthand for `tree` with hidden files and color enabled, ignoring
+# `t` is a shorthand for `tree` with hidden files and color enabled, ignoring
 # the `.git` directory, listing directories first. The output gets piped into
 # `less` with options to preserve color and line numbers, unless the output is
 # small enough for one screen.
-function tre() {
-	tree -aC -I '.git|node_modules|bower_components|.DS_Store' --dirsfirst "$@" | less -FRNX;
+function t() {
+	# Defaults to 3 levels deep, do more with `t 5` or `t 1`
+	# pass additional args after
+	tree -aC -I '.git|node_modules|bower_components|.DS_Store' --dirsfirst -L ${1:-3} $2 | less -FRNX;
 }
 
 # Who is using the laptop's iSight camera?

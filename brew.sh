@@ -8,6 +8,8 @@ brew upgrade --all
 
 # Install Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh -s /usr/local/bin/bash`.
+# sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+# chsh -s /usr/local/bin/bash
 brew install bash
 # Regular bash-completion package is held back to an older release, so we get latest from versions.
 # github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
