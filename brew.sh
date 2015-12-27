@@ -27,6 +27,9 @@ brew install node
 # Install MongoDB
 brew install mongodb
 
+# Install HTTPie
+brew install httpie
+
 # Install Tree
 brew install tree
 
