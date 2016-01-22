@@ -9,6 +9,11 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+# Quit now if in zsh
+if [[ -n "$ZSH_VERSION" ]]; then
+  return 1 2> /dev/null || exit 1;
+fi;
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
 

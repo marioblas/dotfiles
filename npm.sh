@@ -33,6 +33,9 @@ npm install -g browser-sync
 # PageSpeed Insights
 npm install -g psi
 
+# Pure
+npm install -g pure-prompt
+
 # Mongo Hacker
 npm install -g mongo-hacker
 

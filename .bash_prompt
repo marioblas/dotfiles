@@ -2,6 +2,11 @@
 # Heavily inspired by @necolas’s prompt: https://github.com/necolas/dotfiles
 # iTerm → Profiles → Text → use 13pt Monaco with 1.1 vertical spacing.
 
+# Quit now if in zsh
+if [[ -n "$ZSH_VERSION" ]]; then
+  return 1 2> /dev/null || exit 1;
+fi;
+
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
 	export TERM='gnome-256color';
 elif infocmp xterm-256color >/dev/null 2>&1; then
