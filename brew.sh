@@ -11,6 +11,7 @@ brew upgrade --all
 # sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 # chsh -s /usr/local/bin/bash
 brew install bash
+
 # Regular bash-completion package is held back to an older release, so we get latest from versions.
 # github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
 brew tap homebrew/versions
@@ -21,6 +22,9 @@ brew install homebrew/versions/bash-completion2
 # sudo bash -c 'echo /usr/local/bin/zsh >> /etc/shells'
 # chsh -s /usr/local/bin/zsh
 brew install zsh
+
+# Install Zsh syntax highlighting
+brew install zsh-syntax-highlighting
 
 # Install updated Git
 # Note: Don't forget to export the PATH /usr/local/bin (included in .path)
