@@ -68,6 +68,7 @@ Also you can use this file for override settings, functions and aliases.
 * `.bash_profile`
 * `.bash_prompt`
 * `.bashrc`
+* `.zshrc`
 * `.exports`
 * `.functions`
 * `.inputrc`
