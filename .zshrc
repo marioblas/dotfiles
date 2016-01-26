@@ -10,10 +10,19 @@ autoload -U promptinit && promptinit
 # Case insensitive matching
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
+# History options
+HISTFILE=~/.zhistory
+HISTSIZE=4096
+SAVEHIST=$HISTSIZE
+# History management
+# See: http://www.refining-linux.org/archives/49/ZSH-Gem-15-Shared-history
+setopt inc_append_history
+setopt share_history
+
 # Load Pure
 # Installed previously via npm
 # Zsh prompt based on the Tomorrow Night Eighties theme.
-# iTerm → Profiles → Text → use 15pt Droid Sans Mono.
+# iTerm → Profiles → Text → use 14pt Droid Sans Mono.
 prompt pure
 
 # Activate the syntax highlighting
