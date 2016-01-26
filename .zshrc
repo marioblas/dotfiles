@@ -19,6 +19,10 @@ SAVEHIST=$HISTSIZE
 setopt inc_append_history
 setopt share_history
 
+# Keybindings
+bindkey "^[[H" beginning-of-line  # [Fn + ←]
+bindkey "^[[F" end-of-line        # [Fn + →]
+
 # Load Pure
 # Installed previously via npm
 # Zsh prompt based on the Tomorrow Night Eighties theme.
