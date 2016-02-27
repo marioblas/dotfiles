@@ -38,8 +38,8 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Show border around window
 defaults write com.googlecode.iterm2 UseBorder -bool true
 
-# Install the Cobalt 2 theme for iTerm
-open "${HOME}/init/Cobalt 2.itermcolors"
+# Install the Tomorrow Night Eighties theme for iTerm
+open "${HOME}/init/Tomorrow Night Eighties.itermcolors"
 
 ###############################################################################
 # Transmission                                                                #
