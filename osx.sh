@@ -20,11 +20,15 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Finder                                                                      #
 ###############################################################################
 
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
-# Allow text selection in Quick Look
-defaults write com.apple.finder QLEnableTextSelection -bool true
+# Use list view in all Finder windows by default
+# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 ###############################################################################
 # iTerm 2                                                                     #
@@ -39,7 +43,7 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 defaults write com.googlecode.iterm2 UseBorder -bool true
 
 # Install the Tomorrow Night Eighties theme for iTerm
-open "${HOME}/init/Tomorrow Night Eighties.itermcolors"
+open "./init/Tomorrow Night Eighties.itermcolors"
 
 ###############################################################################
 # Transmission                                                                #
@@ -50,6 +54,12 @@ defaults write org.m0k.transmission WarningDonate -bool false
 
 # Hide the legal disclaimer
 defaults write org.m0k.transmission WarningLegal -bool false
+
+###############################################################################
+# Typography                                                                  #
+###############################################################################
+
+cp ./init/*.ttf /Library/Fonts/
 
 ###############################################################################
 # Kill affected applications                                                  #

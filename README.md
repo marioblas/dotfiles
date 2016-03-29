@@ -5,13 +5,13 @@
 ## Installation
 
 ### General
-The `bootstrap.sh` pulls the latest version and copy the files to `~`.
+The `symlink-setup.sh` symlinks all the dotfiles to `~`.
 ```bash
-git clone https://github.com/marioblas/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/marioblas/dotfiles.git && cd dotfiles && source symlink-setup.sh
 ```
 To update just `cd` to your `dotfiles` repository and then:
 ```bash
-source bootstrap.sh
+source symlink-setup.sh
 ```
 
 ### Homebrew packages
@@ -51,13 +51,9 @@ You can create a file `~/.extra` and add your private configuration.
 
 My `~/.extra` looks something like this:
 ```bash
-# Git credentials
-GIT_AUTHOR_NAME="Mario Blas"
-GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
-git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="marioblas@mailinator.com"
-GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
-git config --global user.email "$GIT_AUTHOR_EMAIL"
+# Aliases
+alias p="cd ~/Projects"
+alias dotfiles="cd ~/Projects/dotfiles"
 ```
 Also you can use this file for override settings, functions and aliases.
 
@@ -87,7 +83,7 @@ Also you can use this file for override settings, functions and aliases.
 * `bin/wifi-password` - Get the password of the wifi you're on.
 
 ## Thanks to...
-This project is principally for me and is based on Mathias's dotfiles. His [repository](https://github.com/mathiasbynens/dotfiles) and [contributors](https://github.com/mathiasbynens/dotfiles/graphs/contributors) are awesome!
+This project is principally for personal use and is based on Mathias' and Paul's dotfiles.
 
 ## License
 MIT © [marioblas](https://github.com/marioblas)

@@ -3,9 +3,9 @@
 # To maintain Homebrew Cask use:
 # brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 
-# Install Homebrew Cask
+# Homebrew Cask
 # http://caskroom.io/
-brew install caskroom/cask/brew-cask
+
 # Install Homebrew Cask Versions
 # https://github.com/caskroom/homebrew-versions
 brew tap caskroom/versions

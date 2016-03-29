@@ -1,6 +1,9 @@
 # Useful .gitignore templates:
 # https://github.com/github/gitignore
 
+# Git credential file
+.gitconfig.local
+
 # Linux
 *~
 

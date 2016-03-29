@@ -15,7 +15,7 @@ brew install bash
 # Regular bash-completion package is held back to an older release, so we get latest from versions.
 # github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
 brew tap homebrew/versions
-brew install homebrew/versions/bash-completion2
+brew install bash-completion2
 
 # Install Zsh
 # Note: don’t forget to add `/usr/local/bin/zsh` to `/etc/shells` before running `chsh -s /usr/local/bin/zsh`.
