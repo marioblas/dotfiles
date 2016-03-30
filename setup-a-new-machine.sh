@@ -8,6 +8,11 @@ read -n 1
 # Homebrew
 ###############################################################################
 
+# Install Homebrew
+# http://brew.sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install Homebrew packages & Homebrew Cask apps
 ./brew.sh
 ./brew-cask.sh
 
@@ -48,4 +53,5 @@ echo $ZSH_VERSION
 # Remaining configuration
 ###############################################################################
 
+# IMPORTANT: Read the entire file first
 ./osx.sh
