@@ -32,6 +32,7 @@ chsh -s $ZSHPATH # will set for current user only.
 echo $ZSH_VERSION
 # Later, confirm iTerm settings aren't conflicting.
 
+
 ###############################################################################
 # Node stuff
 ###############################################################################

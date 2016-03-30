@@ -40,6 +40,9 @@ brew install mongodb
 # Install HTTPie
 brew install httpie
 
+# Install ImageMagick
+brew install imagemagick
+
 # Install Tree
 brew install tree
 
