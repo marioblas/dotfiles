@@ -3,6 +3,9 @@
 # Update npm itself
 npm install -g npm@latest
 
+# npm Check
+npm install -g npm-check
+
 # Yeoman
 npm install -g yo
 
