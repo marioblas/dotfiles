@@ -46,6 +46,9 @@ brew install httpie
 # Install ImageMagick
 brew install imagemagick
 
+# Install Dark Mode
+brew install dark-mode
+
 # Install Tree
 brew install tree
 

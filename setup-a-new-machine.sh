@@ -1,6 +1,6 @@
 # Copy paste this file in bit by bit.
 # Don't run it.
-echo "Do not run this script in one go. Hit ctrl-c NOW"
+echo "Do not run this script in one go. Hit Ctrl-C NOW"
 read -n 1
 
 
@@ -55,3 +55,7 @@ echo $ZSH_VERSION
 
 # IMPORTANT: Read the entire file first
 ./osx.sh
+
+# Switch to OS X Dark Mode
+# Note: requires dark-mode (installed with brew.sh)
+dark-mode --mode Dark
