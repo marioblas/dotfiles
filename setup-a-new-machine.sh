@@ -53,6 +53,7 @@ echo $ZSH_VERSION
 # Remaining configuration
 ###############################################################################
 
+# Set some sensible OS X defaults
 # IMPORTANT: Read the entire file first
 ./osx.sh
 
