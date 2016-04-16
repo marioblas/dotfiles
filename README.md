@@ -19,6 +19,10 @@ source symlink-setup.sh
 
 ## Summary of files
 
+### Automatic config
+* `.vimrc`
+* `.inputrc`
+
 ### Shell
 * `.aliases`
 * `.bash_profile`
@@ -27,7 +31,6 @@ source symlink-setup.sh
 * `.zshrc`
 * `.exports`
 * `.functions`
-* `.inputrc`
 * `.path`
 
 ### Editor
