@@ -12,10 +12,7 @@
 - Enjoy!
 
 ### Add new dotfiles
-Just `cd` to your `dotfiles` repository, add your new dotfiles and then:
-```bash
-source symlink-setup.sh
-```
+Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `symlink-setup.sh`
 
 ## Summary of files
 
