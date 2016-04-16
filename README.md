@@ -1,6 +1,6 @@
 # Mario's dotfiles
 
-![](https://cloud.githubusercontent.com/assets/3719969/6882753/ce94c4f2-d588-11e4-8355-ba9afa58ee15.png)
+![](https://cloud.githubusercontent.com/assets/3719969/14582971/23fa4a0e-040c-11e6-93d2-1ce8d9d1951c.png)
 
 ## Setup
 
