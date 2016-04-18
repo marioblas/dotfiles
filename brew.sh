@@ -46,6 +46,9 @@ brew install httpie
 # Install ImageMagick
 brew install imagemagick
 
+# Install WiFi Password
+brew install wifi-password
+
 # Install Dark Mode
 brew install dark-mode
 

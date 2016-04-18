@@ -39,7 +39,6 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 
 ### Commands
 * `bin/subl` - Sublime Text command line tool *subl* for OS X.
-* `bin/wifi-password` - Get the password of the wifi you're on.
 
 ### Manual run
 * `setup-a-new-machine.sh`
