@@ -40,6 +40,9 @@ brew install node
 # Install MongoDB
 brew install mongodb
 
+# Install Heroku
+brew install heroku
+
 # Install HTTPie
 brew install httpie
 
