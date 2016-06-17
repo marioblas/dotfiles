@@ -18,7 +18,7 @@ alias j="jobs"
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
-else # OS X `ls`
+else # macOS `ls`
 	colorflag="-G"
 fi
 
@@ -44,7 +44,7 @@ alias week='date +%V'
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
-# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm install -g npm@latest; npm update -g; sudo gem update --system; sudo gem update'
 
 # IP addresses

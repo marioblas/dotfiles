@@ -32,7 +32,7 @@ function targz() {
 	tar -cvf "${tmpFile}" --exclude=".DS_Store" "${@}" || return 1;
 
 	size=$(
-		stat -f"%z" "${tmpFile}" 2> /dev/null; # OS X `stat`
+		stat -f"%z" "${tmpFile}" 2> /dev/null; # macOS `stat`
 		stat -c"%s" "${tmpFile}" 2> /dev/null # GNU `stat`
 	);
 
@@ -56,7 +56,7 @@ function targz() {
 
 # Extracts compressed files / mounts disk images
 # Usage: extract <file>
-# Note: .dmg/hdiutil is Mac OS X-specific.
+# Note: .dmg/hdiutil is macOS-specific.
 # Credit: http://nparikh.org/notes/zshrc.txt
 function extract () {
     if [ -f $1 ]; then

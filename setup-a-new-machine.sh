@@ -56,10 +56,10 @@ curl https://install.meteor.com/ | sh
 # Remaining configuration
 ###############################################################################
 
-# Set some sensible OS X defaults
+# Set some sensible macOS defaults
 # IMPORTANT: Read the entire file first
-./osx.sh
+./macos.sh
 
-# Switch to OS X Dark Mode
+# Switch to macOS Dark Mode
 # Note: requires dark-mode (installed with brew.sh)
 dark-mode --mode Dark

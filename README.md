@@ -38,11 +38,11 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 * `.gitignore`
 
 ### Commands
-* `bin/subl` - Sublime Text command line tool *subl* for OS X.
+* `bin/subl` - Sublime Text command line tool *subl* for macOS.
 
 ### Manual run
 * `setup-a-new-machine.sh`
-  * `brew.sh`, `brew-cask.sh`, `nvm.sh`, `npm.sh`, `osx.sh`
+  * `brew.sh`, `brew-cask.sh`, `nvm.sh`, `npm.sh`, `macos.sh`
 * `symlink-setup.sh`
 
 ## Private config
