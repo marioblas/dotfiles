@@ -166,6 +166,13 @@ function json() {
 	fi;
 }
 
+# Preview CSV files
+# Source: http://stackoverflow.com/questions/1875305/command-line-csv-viewer
+# Usage: `csv somefile.csv`
+function csv() {
+	sed 's/,,/, ,/g;s/,,/, ,/g' "$@" | column -s, -t | less -#2 -N -S
+}
+
 # Run `dig` and display the most useful info
 function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer;
