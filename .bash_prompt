@@ -109,14 +109,14 @@ else
 	hostStyle="${cyan}";
 fi;
 
-# Set the terminal title to the current working directory.
-PS1="\[\033]0;\w\007\]";
+# Set the terminal title and prompt.
+PS1="\[\033]0;\W\007\]"; # Working directory base name
 PS1+="\[${bold}\]\n"; # Newline
 PS1+="\[${userStyle}\]\u"; # Username
 PS1+="\[${white}\] at ";
 PS1+="\[${hostStyle}\]\h"; # Host
 PS1+="\[${white}\] in ";
-PS1+="\[${green}\]\w"; # Working directory
+PS1+="\[${green}\]\w"; # Working directory full path
 PS1+="\$(prompt_git \"${white} on ${magenta}\")"; # Git repository details
 PS1+="\n";
 PS1+="\[${white}\]➤ \[${reset}\]"; # `➤` (use something cool) and reset color
