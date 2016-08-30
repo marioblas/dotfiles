@@ -40,6 +40,9 @@ brew install node
 # Install MongoDB
 brew install mongodb
 
+# Install RethinkDB
+brew install rethinkdb
+
 # Install Heroku
 brew install heroku
 
