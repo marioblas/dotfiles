@@ -7,11 +7,8 @@ git --git-dir=$HOME/.nvm/.git --work-tree=$HOME/.nvm checkout ${latest_release}
 # Activate NVM (also included in .bash_profile)
 source ~/.nvm/nvm.sh
 
-# Install the latest v0.10.x release of Node
-nvm install 0.10
-
-# Install the latest version of io.js
-nvm install iojs
+# Install the latest v4.5.x release of Node
+nvm install 4.5
 
 # Use the system-installed version of Node
 nvm use system
