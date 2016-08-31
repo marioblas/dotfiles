@@ -9,26 +9,20 @@ npm install -g npm-check
 # Yeoman
 npm install -g yo
 
-# Grunt
-npm install -g grunt-cli
-
 # Gulp
 npm install -g gulp
 
-# Bower
-npm install -g bower
-
-# JSHint
-npm install -g jshint
-
-# JSCS
-npm install -g jscs
+# Webpack
+npm install -g webpack
 
 # ESLint
 npm install -g eslint
 
 # CSSLint
 npm install -g csslint
+
+# React Storybook
+npm install -g getstorybook
 
 # Browser Sync
 npm install -g browser-sync
