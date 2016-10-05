@@ -18,11 +18,17 @@ npm install -g webpack
 # ESLint
 npm install -g eslint
 
-# CSSLint
-npm install -g csslint
+# Stylelint
+npm install -g stylelint
+
+# Create React App
+npm install -g create-react-app
 
 # React Storybook
 npm install -g getstorybook
+
+# Now
+npm install -g now
 
 # Browser Sync
 npm install -g browser-sync
