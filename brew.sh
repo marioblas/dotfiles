@@ -37,6 +37,9 @@ brew install ruby
 # Install Node.js and npm
 brew install node
 
+# Install Yarn
+brew install yarn
+
 # Install MongoDB
 brew install mongodb
 
