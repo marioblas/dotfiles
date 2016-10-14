@@ -13,8 +13,11 @@ brew tap caskroom/versions
 # Quick Look plugins:
 # https://github.com/sindresorhus/quick-look-plugins
 
-# qlImageSize
+# QLImageSize
 brew cask install qlimagesize
+
+# QLMarkdown
+brew cask install qlmarkdown
 
 # Clean up cached downloads
 brew cask cleanup
