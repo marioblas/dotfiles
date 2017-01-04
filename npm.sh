@@ -30,6 +30,9 @@ npm install -g getstorybook
 # Now
 npm install -g now
 
+# Release
+npm install -g release
+
 # Browser Sync
 npm install -g browser-sync
 
