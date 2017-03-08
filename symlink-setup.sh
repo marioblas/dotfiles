@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # This symlinks all the dotfiles to ~/
 # it also symlinks ~/bin for easy updating
 
@@ -11,7 +9,7 @@
 #   https://raw.githubusercontent.com/alrra/dotfiles/master/os/create_symbolic_links.sh
 #   it should and needs to be improved to be less of a hack.
 
-# Jump down to line ~130 for the start.
+# Jump down to line ~129 for the start.
 
 
 
