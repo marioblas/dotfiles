@@ -8,7 +8,7 @@
 
 # Install Homebrew Cask Versions
 # https://github.com/caskroom/homebrew-versions
-brew tap caskroom/versions
+# brew tap caskroom/versions
 
 # Quick Look plugins:
 # https://github.com/sindresorhus/quick-look-plugins

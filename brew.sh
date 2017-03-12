@@ -13,7 +13,7 @@ brew upgrade
 brew install bash
 
 # Regular bash-completion package is held back to an older release, so we get latest from versions.
-# github.com/Homebrew/homebrew/blob/master/Library/Formula/bash-completion.rb#L3-L4
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bash-completion.rb#L1-L2
 brew tap homebrew/versions
 brew install bash-completion2
 
