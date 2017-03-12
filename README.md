@@ -42,7 +42,7 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 
 ### Manual run
 * `setup-a-new-machine.sh`
-  * `brew.sh`, `brew-cask.sh`, `nvm.sh`, `npm.sh`, `macos.sh`
+  * `brew.sh`, `brew-cask.sh`, `nvm.sh`, `npm.sh`, `apm.sh`, `macos.sh`
 * `symlink-setup.sh`
 
 ## Private config
