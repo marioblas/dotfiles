@@ -6,12 +6,6 @@ npm install -g npm@latest
 # npm Check
 npm install -g npm-check
 
-# Yeoman
-npm install -g yo
-
-# Gulp
-npm install -g gulp
-
 # Webpack
 npm install -g webpack
 
@@ -32,9 +26,6 @@ npm install -g now
 
 # Release
 npm install -g release
-
-# Browser Sync
-npm install -g browser-sync
 
 # PageSpeed Insights
 npm install -g psi
