@@ -42,9 +42,6 @@ echo $ZSH_VERSION
 # Node stuff
 ###############################################################################
 
-# Install Node Version Manager
-./nvm.sh
-
 # Install/update npm itself and npm packages.
 ./npm.sh
 
