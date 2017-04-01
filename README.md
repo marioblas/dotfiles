@@ -5,11 +5,11 @@
 ## Setup
 
 ### Installation
-- Fork & clone the repo
-- Read and run parts of `setup-a-new-machine.sh`
-- Add your `.gitconfig.local` file (see .gitconfig file notes)
-- Read and run `symlink-setup.sh`
-- Enjoy!
+- Fork & clone the repo 🔀
+- Read and run parts of `setup-a-new-machine.sh` 💻
+- Add your `.gitconfig.local` file (see [private config](#private-config)) ⚙
+- Read and run `symlink-setup.sh` ⚡️
+- Enjoy! 👌
 
 ### Add new dotfiles
 Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `symlink-setup.sh`
@@ -46,13 +46,25 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 * `symlink-setup.sh`
 
 ## Private config
+
+### Git
+Use `~/.gitconfig.local` for your private git configuration. Eg: username, tokens...
+
+```bash
+[user]
+  name = John Doe
+  email = johndoe@example.com
+# ...
+```
+
+### Extra
 You can create a file `~/.extra` and add your private configuration.
 
 My `~/.extra` looks something like this:
 ```bash
 # Project aliases
 alias dotfiles="cd ~/Projects/dotfiles"
-...
+# ...
 ```
 Also you can use this file for override settings, functions and aliases.
 
