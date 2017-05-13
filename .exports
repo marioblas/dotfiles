@@ -1,3 +1,7 @@
+# Set language
+# Fixes zsh tab completion on hyper (https://github.com/zeit/hyper/issues/24)
+export LANG="es_ES.UTF-8";
+
 # Make vim the default editor
 export EDITOR="vim";
 
