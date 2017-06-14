@@ -19,7 +19,7 @@ npm install -g stylelint
 npm install -g create-react-app
 
 # React Storybook
-npm install -g getstorybook
+npm install -g @storybook/cli
 
 # Now
 npm install -g now
