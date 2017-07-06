@@ -18,6 +18,9 @@ npm install -g stylelint
 # Create React App
 npm install -g create-react-app
 
+# Create React Native App
+npm install -g create-react-native-app
+
 # React Storybook
 npm install -g @storybook/cli
 
