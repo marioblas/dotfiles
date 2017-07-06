@@ -21,9 +21,6 @@ npm install -g create-react-app
 # React Storybook
 npm install -g @storybook/cli
 
-# Now
-npm install -g now
-
 # Release
 npm install -g release
 
