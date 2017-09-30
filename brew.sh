@@ -43,12 +43,6 @@ brew install yarn
 # Install MongoDB
 brew install mongodb
 
-# Install RethinkDB
-brew install rethinkdb
-
-# Install Heroku
-brew install heroku
-
 # Install HTTPie
 brew install httpie
 

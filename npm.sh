@@ -21,6 +21,9 @@ npm install -g create-react-app
 # Create React Native App
 npm install -g create-react-native-app
 
+# Preact CLI
+npm install -g preact-cli
+
 # React Storybook
 npm install -g @storybook/cli
 
