@@ -46,7 +46,7 @@ npm install -g git-open
 npm install -g speed-test
 
 # Trash
-npm install -g trash
+npm install -g trash-cli
 
 # Delete data out of the cache folder
 npm cache clean
