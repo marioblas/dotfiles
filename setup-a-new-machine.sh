@@ -45,9 +45,6 @@ echo $ZSH_VERSION
 # Install/update npm itself and npm packages.
 ./npm.sh
 
-# Install Meteor
-curl https://install.meteor.com/ | sh
-
 
 ###############################################################################
 # Atom editor
