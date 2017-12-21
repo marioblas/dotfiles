@@ -27,8 +27,14 @@ apm install language-babel
 # Emmet
 apm install emmet
 
+# TODO show
+apm install todo-show
+
 # Docblockr
 apm install docblockr
 
 # Pigments
 apm install pigments
+
+# Pretty JSON
+apm install pretty-json
