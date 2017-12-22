@@ -41,9 +41,9 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 * `bin/subl` - Sublime Text command line tool *subl* for macOS.
 
 ### Manual run
+* `symlink-setup.sh`
 * `setup-a-new-machine.sh`
   * `brew.sh`, `brew-cask.sh`, `npm.sh`, `apm.sh`, `macos.sh`
-* `symlink-setup.sh`
 
 ## Private config
 
