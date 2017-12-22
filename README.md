@@ -6,9 +6,9 @@
 
 ### Installation
 - Fork & clone the repo 🔀
-- Read and run parts of `setup-a-new-machine.sh` 💻
 - Add your `.gitconfig.local` file (see [private config](#private-config)) ⚙
 - Read and run `symlink-setup.sh` ⚡️
+- Read and run parts of `setup-a-new-machine.sh` 💻
 - Enjoy! 👌
 
 ### Add new dotfiles
