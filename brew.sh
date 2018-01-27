@@ -49,6 +49,9 @@ brew install httpie
 # Install ImageMagick
 brew install imagemagick
 
+# Install WebP
+brew install webp
+
 # Install WiFi Password
 brew install wifi-password
 
