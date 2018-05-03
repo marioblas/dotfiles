@@ -27,6 +27,9 @@ npm install -g preact-cli
 # React Storybook
 npm install -g @storybook/cli
 
+# Firebase tools
+npm install -g firebase-tools
+
 # Release
 npm install -g release
 
