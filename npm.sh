@@ -53,6 +53,3 @@ npm install -g trash-cli
 
 # Fkill
 npm install -g fkill-cli
-
-# Delete data out of the cache folder
-npm cache clean
