@@ -46,16 +46,6 @@ defaults write com.googlecode.iterm2 UseBorder -bool true
 open "./init/Tomorrow Night Eighties.itermcolors"
 
 ###############################################################################
-# Transmission                                                                #
-###############################################################################
-
-# Hide the donate message
-defaults write org.m0k.transmission WarningDonate -bool false
-
-# Hide the legal disclaimer
-defaults write org.m0k.transmission WarningLegal -bool false
-
-###############################################################################
 # Typography                                                                  #
 ###############################################################################
 
@@ -65,7 +55,7 @@ cp ./init/*.ttf /Library/Fonts/
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in "cfprefsd" "Finder" "Transmission"; do
+for app in "cfprefsd" "Finder"; do
 	killall "${app}" > /dev/null 2>&1
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."

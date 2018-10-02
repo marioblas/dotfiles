@@ -47,14 +47,6 @@ echo $ZSH_VERSION
 
 
 ###############################################################################
-# Atom editor
-###############################################################################
-
-# Install packages
-./apm.sh
-
-
-###############################################################################
 # VS Code editor
 ###############################################################################
 
@@ -69,7 +61,3 @@ echo $ZSH_VERSION
 # Set some sensible macOS defaults
 # IMPORTANT: Read the entire file first
 ./macos.sh
-
-# Switch to macOS Dark Mode
-# Note: requires dark-mode (installed with brew.sh)
-dark-mode --mode Dark

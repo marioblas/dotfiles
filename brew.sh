@@ -31,9 +31,6 @@ brew install zsh-syntax-highlighting
 # Check that it works by executing `which git`. It should return "/usr/local/bin/git"
 brew install git
 
-# Install updated Ruby
-brew install ruby
-
 # Install Node.js and npm
 brew install node
 
@@ -54,9 +51,6 @@ brew install webp
 
 # Install WiFi Password
 brew install wifi-password
-
-# Install Dark Mode
-brew install dark-mode
 
 # Install Tree
 brew install tree

@@ -3,12 +3,6 @@
 # Update npm itself
 npm install -g npm@latest
 
-# npm Check
-npm install -g npm-check
-
-# Webpack
-npm install -g webpack
-
 # ESLint
 npm install -g eslint
 
@@ -17,12 +11,6 @@ npm install -g stylelint
 
 # Create React App
 npm install -g create-react-app
-
-# Create React Native App
-npm install -g create-react-native-app
-
-# Preact CLI
-npm install -g preact-cli
 
 # React Storybook
 npm install -g @storybook/cli
