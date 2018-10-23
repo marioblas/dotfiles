@@ -9,9 +9,7 @@
 #   https://raw.githubusercontent.com/alrra/dotfiles/master/os/create_symbolic_links.sh
 #   it should and needs to be improved to be less of a hack.
 
-# Jump down to line ~129 for the start.
-
-
+# Jump down to line ~126 for the start.
 
 ###############################################################################
 # Utils
@@ -124,17 +122,14 @@ print_success() {
   printf "\e[0;32m  [✔] $1\e[0m\n"
 }
 
-
 ###############################################################################
 # Actual symlink stuff
 ###############################################################################
 
-# finds all .dotfiles in this folder
+# Finds all .dotfiles in this folder
 declare -a FILES_TO_SYMLINK=$(find . -type f -maxdepth 1 -name ".*" -not -name .DS_Store -not -name .git | sed -e 's|//|/|' | sed -e 's|./.|.|')
-FILES_TO_SYMLINK="$FILES_TO_SYMLINK bin" # add in the binaries
-
-
-###############################################################################
+# Add in the binaries
+FILES_TO_SYMLINK="$FILES_TO_SYMLINK bin"
 
 main() {
   local i=""

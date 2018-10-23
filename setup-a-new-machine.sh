@@ -12,30 +12,30 @@ read -n 1
 # http://brew.sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install Homebrew packages & Homebrew Cask apps
+# Install Homebrew packages
 ./brew.sh
-./brew-cask.sh
 
 
 ###############################################################################
 # Install of common things
 ###############################################################################
 
-# Change to Bash 4 (installed by Homebrew)
-BASHPATH=$(brew --prefix)/bin/bash
-# sudo echo $BASHPATH >> /etc/shells
-sudo bash -c 'echo $(brew --prefix)/bin/bash >> /etc/shells'
-chsh -s $BASHPATH # will set for current user only.
-echo $BASH_VERSION # should be 4.x not the old 3.2.X
-# Later, confirm iTerm settings aren't conflicting.
+# Save Homebrew’s installed location.
+BREW_PREFIX=$(brew --prefix)
 
-# Change to Zsh (installed by Homebrew)
-ZSHPATH=$(brew --prefix)/bin/zsh
-# sudo echo $ZSHPATH >> /etc/shells
-sudo bash -c 'echo $(brew --prefix)/bin/zsh >> /etc/shells'
-chsh -s $ZSHPATH # will set for current user only.
-echo $ZSH_VERSION
-# Later, confirm iTerm settings aren't conflicting.
+# Switch to using brew-installed Bash as default shell
+# Hyper runs system's login shell by default... it takes effect on next login
+if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
+  echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
+  chsh -s "${BREW_PREFIX}/bin/bash";
+fi;
+
+# Switch to using brew-installed Zsh as default shell
+# Hyper runs system's login shell by default... it takes effect on next login
+if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
+  echo "${BREW_PREFIX}/bin/zsh" | sudo tee -a /etc/shells;
+  chsh -s "${BREW_PREFIX}/bin/zsh";
+fi;
 
 
 ###############################################################################

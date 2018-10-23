@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# Atom keymap
-code --install-extension ms-vscode.atom-keybindings
+# NOTE: Install 'code' command in PATH (see docs/vscode-cli.md)
 
-# Material icon theme
+# Material Icon Theme
 code --install-extension PKief.material-icon-theme
 
 # Night Owl
@@ -21,14 +20,17 @@ code --install-extension esbenp.prettier-vscode
 # Language Babel
 code --install-extension mgmcdermott.vscode-language-babel
 
-# Import cost
-code --install-extension wix.vscode-import-cost
+# React Snippets
+code --install-extension xabikos.ReactSnippets
 
-# Styled components
+# Styled Components
 code --install-extension jpoissonnier.vscode-styled-components
 
-# Color highlight
-code --install-extension naumovs.color-highlight
+# Import Cost
+code --install-extension wix.vscode-import-cost
 
-# Select Highlight in Minimap
-code --install-extension mde.select-highlight-minimap
+# Bracket Pair Colorizer
+code --install-extension CoenraadS.bracket-pair-colorizer
+
+# Color Highlight
+code --install-extension naumovs.color-highlight
