@@ -20,30 +20,26 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Finder                                                                      #
 ###############################################################################
 
+# Finder: Show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
 
-# Avoid creating .DS_Store files on network volumes
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
-
 # Use list view in all Finder windows by default
-# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`, `Nlsv`
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
+# Avoid creating .DS_Store files on network or USB volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+
 ###############################################################################
-# iTerm 2                                                                     #
+# Dock                                                                        #
 ###############################################################################
 
-# Note: this cannot be done from within iTerm...
-
-# Don’t display the annoying prompt when quitting iTerm
-defaults write com.googlecode.iterm2 PromptOnQuit -bool false
-
-# Show border around window
-defaults write com.googlecode.iterm2 UseBorder -bool true
-
-# Install the Tomorrow Night Eighties theme for iTerm
-open "./init/Tomorrow Night Eighties.itermcolors"
+# Minimize windows into their application’s icon
+defaults write com.apple.dock minimize-to-application -bool true
 
 ###############################################################################
 # Typography                                                                  #
@@ -55,7 +51,7 @@ cp ./init/*.ttf /Library/Fonts/
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in "cfprefsd" "Finder"; do
+for app in "cfprefsd" "Finder" "Dock"; do
 	killall "${app}" > /dev/null 2>&1
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
