@@ -23,11 +23,10 @@ setopt share_history
 bindkey "^[[H" beginning-of-line  # [Fn + ←]
 bindkey "^[[F" end-of-line        # [Fn + →]
 
-# Load Pure
-# Installed previously via npm
-# Zsh prompt based on the Tomorrow Night Eighties theme.
-# iTerm → Profiles → Text → use 14pt Droid Sans Mono.
-prompt pure
+# Load Pure if installed (previously via npm)
+if type prompt_pure_setup > /dev/null; then
+  prompt pure
+fi
 
 # npm command completion script
 # Installation: npm completion >> ~/.bashrc  (or ~/.zshrc)
