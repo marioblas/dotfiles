@@ -3,26 +3,11 @@
 # Update npm itself
 npm install -g npm@latest
 
-# ESLint
-npm install -g eslint
-
-# Stylelint
-npm install -g stylelint
-
-# Create React App
-npm install -g create-react-app
-
-# React Storybook
-npm install -g @storybook/cli
-
 # Firebase tools
 npm install -g firebase-tools
 
 # Release
 npm install -g release
-
-# PageSpeed Insights
-npm install -g psi
 
 # Pure
 npm install -g pure-prompt
