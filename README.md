@@ -19,6 +19,7 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 ### Automatic config
 * `.vimrc`
 * `.inputrc`
+* `.hyper.js`
 
 ### Shell
 * `.aliases`
@@ -37,13 +38,13 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 * `.gitconfig`
 * `.gitignore`
 
-### Commands
-* `bin/subl` - Sublime Text command line tool *subl* for macOS.
+### Commands (~/bin)
+* Binaries that aren't via an npm/npx or homebrew.
 
 ### Manual run
 * `symlink-setup.sh`
 * `setup-a-new-machine.sh`
-  * `brew.sh`, `brew-cask.sh`, `npm.sh`, `vscode.sh`, `macos.sh`
+  * `brew.sh`, `npm.sh`, `vscode.sh`, `macos.sh`
 
 ## Private config
 
@@ -63,7 +64,7 @@ You can create a file `~/.extra` and add your private configuration.
 My `~/.extra` looks something like this:
 ```bash
 # Project aliases
-alias dotfiles="cd ~/Projects/dotfiles"
+alias dotfiles="cd ~/Dev/projects/dotfiles"
 # ...
 ```
 Also you can use this file for override settings, functions and aliases.
