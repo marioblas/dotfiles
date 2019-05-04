@@ -20,8 +20,8 @@ code --install-extension esbenp.prettier-vscode
 # Language Babel
 code --install-extension mgmcdermott.vscode-language-babel
 
-# React Snippets
-code --install-extension xabikos.ReactSnippets
+# ES7 React/Redux/GraphQL/React-Native snippets
+code --install-extension dsznajder.es7-react-js-snippets
 
 # Styled Components
 code --install-extension jpoissonnier.vscode-styled-components
