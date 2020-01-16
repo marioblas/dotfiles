@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # NOTE: Install 'code' command in PATH (see docs/vscode-cli.md)
+# To show installed extensions run `code --list-extensions`
 
 # Material Icon Theme
 code --install-extension PKief.material-icon-theme
@@ -35,8 +36,8 @@ code --install-extension jpoissonnier.vscode-styled-components
 # Import Cost
 code --install-extension wix.vscode-import-cost
 
-# Bracket Pair Colorizer
-code --install-extension CoenraadS.bracket-pair-colorizer
+# Bracket Pair Colorizer 2
+code --install-extension CoenraadS.bracket-pair-colorizer-2
 
 # Color Highlight
 code --install-extension naumovs.color-highlight
