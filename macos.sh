@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Notes:
 # - Show app defaults → `defaults read -app <application>`

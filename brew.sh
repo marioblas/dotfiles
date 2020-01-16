@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Make sure we are using the latest Homebrew and update recipes.
 brew update

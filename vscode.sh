@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # NOTE: Install 'code' command in PATH (see docs/vscode-cli.md)
 

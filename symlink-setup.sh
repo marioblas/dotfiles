@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This symlinks all the dotfiles to ~/
 # it also symlinks ~/bin for easy updating
