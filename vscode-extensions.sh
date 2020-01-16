@@ -17,11 +17,17 @@ code --install-extension dbaeumer.vscode-eslint
 # Prettier
 code --install-extension esbenp.prettier-vscode
 
+# Dotenv
+code --install-extension mikestead.dotenv
+
 # Language Babel
 code --install-extension mgmcdermott.vscode-language-babel
 
 # ES7 React/Redux/GraphQL/React-Native snippets
 code --install-extension dsznajder.es7-react-js-snippets
+
+# Apollo GraphQL
+code --install-extension apollographql.vscode-apollo
 
 # Styled Components
 code --install-extension jpoissonnier.vscode-styled-components

@@ -50,8 +50,11 @@ fi;
 # VS Code editor
 ###############################################################################
 
-# Install packages
-./vscode.sh
+# Install extensions
+./vscode-extensions.sh
+
+# Import settings
+cp ./init/vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 
 ###############################################################################

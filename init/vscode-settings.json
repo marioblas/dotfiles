@@ -1,0 +1,24 @@
+{
+  // Telemetry
+  "telemetry.enableTelemetry": false,
+  // Workbench
+  "workbench.colorTheme": "Night Owl",
+  "workbench.iconTheme": "material-icon-theme",
+  // Editor
+  "editor.fontFamily": "'Victor Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.letterSpacing": 1,
+  "editor.renderWhitespace": "all",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // Emmet: enable javascriptreact syntax in javascript files
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+  // Material Icon Theme
+  "material-icon-theme.activeIconPack": "react_redux",
+}

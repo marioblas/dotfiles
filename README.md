@@ -44,7 +44,7 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 ### Manual run
 * `symlink-setup.sh`
 * `setup-a-new-machine.sh`
-  * `brew.sh`, `npm.sh`, `vscode.sh`, `macos.sh`
+  * `brew.sh`, `npm.sh`, `vscode-extensions.sh`, `macos.sh`
 
 ## Private config
 
