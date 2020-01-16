@@ -54,5 +54,18 @@ brew install wifi-password
 # Install Tree
 brew install tree
 
+# Install Fonts
+brew tap homebrew/cask-fonts
+brew cask install font-victor-mono
+
+# Install Casks
+brew cask install google-chrome
+brew cask install spectacle
+brew cask install visual-studio-code
+brew cask install hyper
+brew cask install insomnia
+brew cask install figma
+brew cask install nucleo
+
 # Remove outdated versions from the cellar
 brew cleanup
