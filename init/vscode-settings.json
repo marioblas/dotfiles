@@ -12,13 +12,17 @@
   "editor.renderWhitespace": "all",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  // Prettier: turn it off for JS because ESLint runs it using `plugin:prettier/recommended`
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
   // Emmet: enable javascriptreact syntax in javascript files
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
+    "javascript": "javascriptreact"
   },
   // Material Icon Theme
-  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.activeIconPack": "react_redux"
 }
