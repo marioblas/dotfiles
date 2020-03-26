@@ -12,17 +12,21 @@
   "editor.renderWhitespace": "all",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Editor: format
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
   },
-  // Prettier: turn it off for JS because ESLint runs it using `plugin:prettier/recommended`
+  // Extensions - Prettier: turn it off for JS because ESLint runs it using `plugin:prettier/recommended`
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
-  // Emmet: enable javascriptreact syntax in javascript files
+  // Extensions - Emmet: enable javascriptreact syntax in javascript files
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
   },
-  // Material Icon Theme
-  "material-icon-theme.activeIconPack": "react_redux"
+  "emmet.triggerExpansionOnTab": true,
+  // Extensions - Material Icon Theme
+  "material-icon-theme.activeIconPack": "react_redux",
+  // Extensions - Color Highlight
+  "color-highlight.markRuler": false
 }
