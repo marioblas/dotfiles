@@ -25,6 +25,8 @@ bindkey "^[[F" end-of-line        # [Fn + →]
 
 # Load Pure if installed (previously via npm)
 if type prompt_pure_setup > /dev/null; then
+  # turn on git stash status
+  zstyle :prompt:pure:git:stash show yes
   prompt pure
 fi
 
