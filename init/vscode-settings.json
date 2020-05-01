@@ -5,10 +5,9 @@
   "workbench.colorTheme": "Night Owl",
   "workbench.iconTheme": "material-icon-theme",
   // Editor
-  "editor.fontFamily": "'Victor Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Dank Mono','Victor Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 16,
-  "editor.letterSpacing": 1,
+  "editor.fontSize": 17,
   "editor.renderWhitespace": "all",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
@@ -16,13 +15,15 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": true
   },
+  // Terminal
+  "terminal.integrated.fontSize": 14,
   // Extensions - Prettier: turn it off for JS because ESLint runs it using `plugin:prettier/recommended`
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
   // Extensions - Emmet: enable javascriptreact syntax in javascript files
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
+    "javascript": "javascriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
   // Extensions - Material Icon Theme
