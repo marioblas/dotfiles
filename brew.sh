@@ -64,6 +64,7 @@ brew cask install spectacle
 brew cask install visual-studio-code
 brew cask install hyper
 brew cask install insomnia
+brew cask install mongodb-compass
 brew cask install figma
 brew cask install nucleo
 
