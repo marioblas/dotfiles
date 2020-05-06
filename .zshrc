@@ -29,5 +29,11 @@ eval "$(starship init zsh)"
 # Load Fast Syntax Highlighting
 source ~/.zsh/fast-syntax-highlighting.plugin.zsh
 
+# Load Completion
+
 # Load Autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Load History Config
+
+# Load Key Bindings

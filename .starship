@@ -1,0 +1,8 @@
+prompt_order = [
+  "username",
+  "hostname",
+  "directory",
+  "cmd_duration",
+  "line_break",
+  "character",
+]
