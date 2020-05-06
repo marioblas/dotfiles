@@ -42,12 +42,16 @@ fi;
 ###############################################################################
 
 # Directory to store plugins
-ZSH_FOLDER="$HOME/.zsh"
-mkdir $ZSH_FOLDER
+mkdir ~/.zsh
 
-# Install Fast Syntax Highlighting
-git clone https://github.com/zdharma/fast-syntax-highlighting $ZSH_FOLDER
+# Download Fast Syntax Highlighting
+git clone https://github.com/zdharma/fast-syntax-highlighting ~/.zsh/fast-syntax-highlighting
 
+# Download History config
+curl -o ~/.zsh/history.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/history.zsh
+
+# Download Key Bindings config
+curl -o ~/.zsh/key-bindings.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/key-bindings.zsh
 
 ###############################################################################
 # Node & npm
