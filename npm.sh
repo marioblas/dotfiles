@@ -6,12 +6,6 @@ npm install -g npm@latest
 # Firebase tools
 npm install -g firebase-tools
 
-# Release
-npm install -g release
-
-# Pure
-npm install -g pure-prompt
-
 # Mongo Hacker
 npm install -g mongo-hacker
 

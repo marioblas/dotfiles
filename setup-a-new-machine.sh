@@ -37,9 +37,20 @@ if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
   chsh -s "${BREW_PREFIX}/bin/zsh";
 fi;
 
+###############################################################################
+# Zsh
+###############################################################################
+
+# Directory to store plugins
+ZSH_FOLDER="$HOME/.zsh"
+mkdir $ZSH_FOLDER
+
+# Install Fast Syntax Highlighting
+git clone https://github.com/zdharma/fast-syntax-highlighting $ZSH_FOLDER
+
 
 ###############################################################################
-# Node stuff
+# Node & npm
 ###############################################################################
 
 # Install/update npm itself and npm packages.
