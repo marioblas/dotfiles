@@ -23,6 +23,10 @@ setopt share_history
 bindkey "^[[H" beginning-of-line  # [Fn + ←]
 bindkey "^[[F" end-of-line        # [Fn + →]
 
+# Remove percent sign at the beginning
+# https://superuser.com/questions/645599/why-is-a-percent-sign-appearing-before-each-prompt-on-zsh-in-windows
+unsetopt PROMPT_SP
+
 # Load Starship
 eval "$(starship init zsh)"
 
