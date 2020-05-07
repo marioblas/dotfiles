@@ -39,6 +39,8 @@ suffix = " "
 style = "purple"
 untracked = "*"
 modified = "*"
+renamed = "+"
+deleted = "+"
 stashed = "≡"
 
 [package]
