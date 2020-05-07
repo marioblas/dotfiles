@@ -9,10 +9,16 @@ prompt_order = [
   "package",
   "nodejs",
   "cmd_duration",
-  "custom",
   "line_break",
   "character",
 ]
+
+[username]
+style_root = "red"
+style_user = "242"
+
+[hostname]
+style = "242"
 
 [directory]
 style = "blue"
@@ -21,19 +27,28 @@ style = "blue"
 symbol = ""
 style = "242"
 
+[git_commit]
+style = "green"
+
+[git_state]
+style = "yellow"
+
 [git_status]
 prefix = ""
 suffix = " "
-style = "218"
+style = "purple"
 untracked = "*"
 modified = "*"
 stashed = "≡"
 
 [package]
-style = "red"
+style = "cyan"
 
 [node]
 style = "green"
 
+[cmd_duration]
+style = "yellow"
+
 [character]
-style_success = "green"
+style_success = "#ff6ac1"
