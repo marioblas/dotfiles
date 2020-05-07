@@ -53,6 +53,10 @@ curl -o ~/.zsh/history.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/mas
 # Download Key Bindings config
 curl -o ~/.zsh/key-bindings.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/key-bindings.zsh
 
+# Download Completion config
+curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/lib/completion.zsh
+
+
 ###############################################################################
 # Node & npm
 ###############################################################################
