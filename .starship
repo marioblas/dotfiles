@@ -2,7 +2,38 @@ prompt_order = [
   "username",
   "hostname",
   "directory",
+  "git_branch",
+  "git_commit",
+  "git_state",
+  "git_status",
+  "package",
+  "nodejs",
   "cmd_duration",
+  "custom",
   "line_break",
   "character",
 ]
+
+[directory]
+style = "blue"
+
+[git_branch]
+symbol = ""
+style = "242"
+
+[git_status]
+prefix = ""
+suffix = " "
+style = "218"
+untracked = "*"
+modified = "*"
+stashed = "≡"
+
+[package]
+style = "red"
+
+[node]
+style = "green"
+
+[character]
+style_success = "green"
