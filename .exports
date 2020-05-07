@@ -20,3 +20,6 @@ export GREP_OPTIONS="--color=auto";
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 # More info: https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
+
+# Set Starship config file location
+export STARSHIP_CONFIG=~/.starship

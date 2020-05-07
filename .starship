@@ -1,0 +1,56 @@
+prompt_order = [
+  "username",
+  "hostname",
+  "directory",
+  "git_branch",
+  "git_commit",
+  "git_state",
+  "git_status",
+  "package",
+  "nodejs",
+  "cmd_duration",
+  "line_break",
+  "character",
+]
+
+[username]
+style_root = "red"
+style_user = "242"
+
+[hostname]
+style = "242"
+
+[directory]
+style = "blue"
+
+[git_branch]
+symbol = ""
+style = "242"
+
+[git_commit]
+style = "green"
+
+[git_state]
+style = "yellow"
+
+[git_status]
+prefix = ""
+suffix = " "
+style = "purple"
+untracked = "*"
+modified = "*"
+renamed = "+"
+deleted = "+"
+stashed = "≡"
+
+[package]
+style = "cyan"
+
+[node]
+style = "green"
+
+[cmd_duration]
+style = "yellow"
+
+[character]
+style_success = "#ff6ac1"

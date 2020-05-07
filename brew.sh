@@ -22,8 +22,11 @@ brew install bash-completion2
 # chsh -s /usr/local/bin/zsh
 brew install zsh
 
-# Install Zsh syntax highlighting
-brew install zsh-syntax-highlighting
+# Install Starship Propmpt
+brew install starship
+
+# Install Zsh Autosuggestions
+brew install zsh-autosuggestions
 
 # Install updated Git
 # Note: Don't forget to export the PATH /usr/local/bin (included in .path)

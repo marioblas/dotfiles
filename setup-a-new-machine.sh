@@ -37,9 +37,28 @@ if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
   chsh -s "${BREW_PREFIX}/bin/zsh";
 fi;
 
+###############################################################################
+# Zsh
+###############################################################################
+
+# Directory to store plugins
+mkdir ~/.zsh
+
+# Download Fast Syntax Highlighting
+git clone https://github.com/zdharma/fast-syntax-highlighting ~/.zsh/fast-syntax-highlighting
+
+# Download History config
+curl -o ~/.zsh/history.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/history.zsh
+
+# Download Key Bindings config
+curl -o ~/.zsh/key-bindings.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/key-bindings.zsh
+
+# Download Completion config
+curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/lib/completion.zsh
+
 
 ###############################################################################
-# Node stuff
+# Node & npm
 ###############################################################################
 
 # Install/update npm itself and npm packages.
