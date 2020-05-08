@@ -1,8 +1,8 @@
 # Mario's dotfiles
 
-<img src="https://user-images.githubusercontent.com/3719969/81431222-b9e28080-9158-11ea-9d4d-7fe49c50ed31.png" width="859" alt="Hyper">
-
 > [Hyper](https://github.com/zeit/hyper) terminal with [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) theme & [Droid Sans Mono](https://fonts.google.com/?query=droid+sans+mono) font
+
+<img src="https://user-images.githubusercontent.com/3719969/81431222-b9e28080-9158-11ea-9d4d-7fe49c50ed31.png" width="859" alt="Hyper">
 
 ## Setup
 
