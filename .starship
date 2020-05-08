@@ -44,6 +44,7 @@ deleted = "+"
 stashed = "≡"
 
 [package]
+symbol = ""
 style = "cyan"
 
 [node]
