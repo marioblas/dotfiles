@@ -46,6 +46,7 @@ stashed = "≡"
 [package]
 symbol = ""
 style = "cyan"
+display_private = true
 
 [node]
 style = "green"
