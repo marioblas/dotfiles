@@ -17,9 +17,6 @@ eval "$(starship init zsh)"
 # Load Autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Load Fast Syntax Highlighting
-source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-
 # Load History config
 source ~/.zsh/history.zsh
 
@@ -35,3 +32,6 @@ if [[ $(date +'%j') != $updated_at ]]; then
 else
   compinit -C -i
 fi
+
+# Load Fast Syntax Highlighting
+source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
