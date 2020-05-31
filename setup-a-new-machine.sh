@@ -3,7 +3,6 @@
 echo "Do not run this script in one go. Hit Ctrl-C NOW"
 read -n 1
 
-
 ###############################################################################
 # Homebrew
 ###############################################################################
@@ -14,7 +13,6 @@ read -n 1
 
 # Install Homebrew packages
 ./brew.sh
-
 
 ###############################################################################
 # Install of common things
@@ -56,7 +54,6 @@ curl -o ~/.zsh/key-bindings.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzs
 # Download Completion config
 curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/lib/completion.zsh
 
-
 ###############################################################################
 # Node & npm
 ###############################################################################
@@ -64,6 +61,11 @@ curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-
 # Install/update npm itself and npm packages.
 ./npm.sh
 
+###############################################################################
+# Typography                                                                  #
+###############################################################################
+
+cp ./init/*.ttf /Library/Fonts/
 
 ###############################################################################
 # VS Code editor
@@ -74,7 +76,6 @@ curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-
 
 # Import settings
 cp ./init/vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
-
 
 ###############################################################################
 # Remaining configuration
