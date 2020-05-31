@@ -20,3 +20,6 @@ npm install -g mongo-hacker
 
 # Firebase tools
 npm install -g firebase-tools
+
+# Vercel
+npm install -g vercel

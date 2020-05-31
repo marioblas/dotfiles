@@ -37,10 +37,8 @@ style = "yellow"
 prefix = ""
 suffix = " "
 style = "purple"
-untracked = "*"
 modified = "*"
-renamed = "+"
-deleted = "+"
+deleted = "×"
 stashed = "≡"
 
 [package]
