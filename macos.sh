@@ -112,6 +112,13 @@ defaults write com.apple.commerce AutoUpdateRestartRequired -bool fals
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 ###############################################################################
+# Time Machine                                                                #
+###############################################################################
+
+# Prevent Time Machine from prompting to use new hard drives as backup volume
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
