@@ -42,15 +42,6 @@ brew install yarn
 # Install MongoDB
 brew install mongodb
 
-# Install HTTPie
-brew install httpie
-
-# Install ImageMagick
-brew install imagemagick
-
-# Install WebP
-brew install webp
-
 # Install WiFi Password
 brew install wifi-password
 
@@ -64,7 +55,7 @@ brew cask install font-victor-mono
 
 # Install Casks
 brew cask install google-chrome
-brew cask install spectacle
+brew cask install reactangle
 brew cask install visual-studio-code
 brew cask install hyper
 brew cask install insomnia

@@ -33,8 +33,8 @@ code --install-extension apollographql.vscode-apollo
 # Styled Components
 code --install-extension jpoissonnier.vscode-styled-components
 
-# Import Cost
-code --install-extension wix.vscode-import-cost
+# MDX
+code --install-extension silvenon.mdx
 
 # Bracket Pair Colorizer 2
 code --install-extension CoenraadS.bracket-pair-colorizer-2
