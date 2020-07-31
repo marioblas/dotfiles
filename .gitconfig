@@ -1,3 +1,9 @@
+[init]
+
+	# Use main as default branch instead of master
+	# More info: https://github.com/github/renaming
+	defaultBranch = main
+
 [alias]
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -13,7 +19,7 @@
 	di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
 
 	# Pull in remote changes for the current repository and all its submodules
-	p = !"git pull; git submodule foreach git pull origin master"
+	p = pull --recurse-submodules
 
 	# Clone a repository including all submodules
 	c = clone --recursive
@@ -28,6 +34,9 @@
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
+
+	# List aliases
+	aliases = config --get-regexp alias
 
 	# Unstage a change if you haven't committed it
 	unstage = reset HEAD
@@ -62,6 +71,9 @@
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
+
+	# Show the user email for the current repository
+	whoami = config user.email
 
 	# Merge GitHub pull request on top of the `master` branch
 	mpr = "!f() { \
@@ -130,36 +142,16 @@
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
 
+[pull]
+
+	rebase = false
+
 [merge]
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 
-# URL shorthands
-
-[url "git@github.com:"]
-
-	insteadOf = "gh:"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-
-[url "git://github.com/"]
-
-	insteadOf = "github:"
-
-[url "git@gist.github.com:"]
-
-	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-
-[url "git://gist.github.com/"]
-
-	insteadOf = "gist:"
-
 # Use separate file for username, github token, etc
 [include]
 
 	path = ~/.gitconfig.local
-[pull]
-	rebase = false
