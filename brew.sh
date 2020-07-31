@@ -40,7 +40,7 @@ brew install node
 brew install yarn
 
 # Install MongoDB
-brew install mongodb
+brew install mongodb-community
 
 # Install WiFi Password
 brew install wifi-password
@@ -55,7 +55,7 @@ brew cask install font-victor-mono
 
 # Install Casks
 brew cask install google-chrome
-brew cask install reactangle
+brew cask install rectangle
 brew cask install visual-studio-code
 brew cask install hyper
 brew cask install insomnia
