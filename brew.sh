@@ -62,6 +62,7 @@ brew cask install insomnia
 brew cask install mongodb-compass
 brew cask install figma
 brew cask install nucleo
+brew cask install imageoptim
 
 # Remove outdated versions from the cellar
 brew cleanup
