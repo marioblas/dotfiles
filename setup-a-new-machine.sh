@@ -54,6 +54,10 @@ curl -o ~/.zsh/key-bindings.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzs
 # Download Completion config
 curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/lib/completion.zsh
 
+# Fix insecure directories and files error
+# See: https://github.com/zsh-users/zsh-completions/issues/680
+compaudit | xargs chmod g-w
+
 ###############################################################################
 # Node & npm
 ###############################################################################
