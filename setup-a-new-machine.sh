@@ -79,7 +79,7 @@ cp ./init/*.ttf /Library/Fonts/
 ./vscode-extensions.sh
 
 # Import settings
-cp ./init/vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
+cp ./init/vscode-settings.jsonc ~/Library/Application\ Support/Code/User/settings.json
 
 ###############################################################################
 # Remaining configuration
