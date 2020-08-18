@@ -19,6 +19,8 @@
   },
   // Terminal
   "terminal.integrated.fontSize": 14,
+  // Debug
+  "debug.javascript.codelens.npmScripts": "never",
   // Extensions - Prettier: turn it off for JS because ESLint runs it using `plugin:prettier/recommended`
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
   // Extensions - Emmet: enable javascriptreact syntax in javascript files
