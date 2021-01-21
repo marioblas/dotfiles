@@ -33,12 +33,6 @@ brew install zsh-autosuggestions
 # Check that it works by executing `which git`. It should return "/usr/local/bin/git"
 brew install git
 
-# Install Node.js and npm
-brew install node
-
-# Install Yarn
-brew install yarn
-
 # Install MongoDB
 brew install mongodb-community
 

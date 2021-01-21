@@ -59,8 +59,15 @@ curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-
 compaudit | xargs chmod g-w
 
 ###############################################################################
-# Node & npm
+# nvm, node & npm
 ###############################################################################
+
+# Install Node Version Manager
+# https://github.com/nvm-sh/nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+
+# Install the latest release of node
+nvm install node
 
 # Install/update npm itself and npm packages.
 ./npm.sh
