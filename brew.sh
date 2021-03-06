@@ -53,6 +53,7 @@ brew cask install rectangle
 brew cask install visual-studio-code
 brew cask install hyper
 brew cask install insomnia
+brew cask install runjs
 brew cask install responsively
 brew cask install mongodb-compass
 brew cask install figma
