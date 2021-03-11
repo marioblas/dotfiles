@@ -4,6 +4,12 @@ echo "Do not run this script in one go. Hit Ctrl-C NOW"
 read -n 1
 
 ###############################################################################
+# Xcode
+###############################################################################
+
+xcode-select --install
+
+###############################################################################
 # Homebrew
 ###############################################################################
 
@@ -20,13 +26,6 @@ read -n 1
 
 # Save Homebrew’s installed location.
 BREW_PREFIX=$(brew --prefix)
-
-# Switch to using brew-installed Bash as default shell
-# Hyper runs system's login shell by default... it takes effect on next login
-if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
-  echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
-  chsh -s "${BREW_PREFIX}/bin/bash";
-fi;
 
 # Switch to using brew-installed Zsh as default shell
 # Hyper runs system's login shell by default... it takes effect on next login
@@ -71,22 +70,6 @@ nvm install node
 
 # Install/update npm itself and npm packages.
 ./npm.sh
-
-###############################################################################
-# Typography                                                                  #
-###############################################################################
-
-cp ./init/*.ttf /Library/Fonts/
-
-###############################################################################
-# VS Code editor
-###############################################################################
-
-# Install extensions
-./vscode-extensions.sh
-
-# Import settings
-cp ./init/vscode-settings.jsonc ~/Library/Application\ Support/Code/User/settings.json
 
 ###############################################################################
 # Remaining configuration
