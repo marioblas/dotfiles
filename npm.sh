@@ -9,11 +9,8 @@ npm install -g trash-cli
 # Fkill
 npm install -g fkill-cli
 
-# Speed test
-npm install -g speed-test
+# Vercel
+npm install -g vercel
 
 # Firebase tools
 npm install -g firebase-tools
-
-# Vercel
-npm install -g vercel
