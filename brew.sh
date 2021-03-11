@@ -6,16 +6,6 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
-# Install Bash 4
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh -s /usr/local/bin/bash`.
-# sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
-# chsh -s /usr/local/bin/bash
-brew install bash
-
-# Regular bash-completion package is held back to an older release, so we get latest from versions.
-# https://github.com/Homebrew/homebrew-core/blob/master/Formula/bash-completion.rb#L1-L2
-brew install bash-completion2
-
 # Install Zsh
 # Note: don’t forget to add `/usr/local/bin/zsh` to `/etc/shells` before running `chsh -s /usr/local/bin/zsh`.
 # sudo bash -c 'echo /usr/local/bin/zsh >> /etc/shells'
@@ -38,9 +28,6 @@ brew install mongodb-community
 
 # Install WiFi Password
 brew install wifi-password
-
-# Install Tree
-brew install tree
 
 # Install Fonts
 brew tap homebrew/cask-fonts

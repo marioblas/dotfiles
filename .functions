@@ -231,9 +231,3 @@ camerausedby() {
     usedby=$(lsof | grep -w "AppleCamera\|USBVDC\|iSight" | awk '{printf $2"\n"}' | xargs ps)
     echo -e "Recent camera uses:\n$usedby"
 }
-
-# `shellswitch [bash|zsh]`
-# Must be in /etc/shells
-shellswitch() {
-	chsh -s $(brew --prefix)/bin/$1
-}
