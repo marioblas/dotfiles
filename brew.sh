@@ -44,21 +44,21 @@ brew install tree
 
 # Install Fonts
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
-brew cask install font-victor-mono
+brew install --cask font-fira-code
+brew install --cask font-victor-mono
 
 # Install Casks
-brew cask install google-chrome
-brew cask install rectangle
-brew cask install visual-studio-code
-brew cask install hyper
-brew cask install insomnia
-brew cask install runjs
-brew cask install responsively
-brew cask install mongodb-compass
-brew cask install figma
-brew cask install nucleo
-brew cask install imageoptim
+brew install --cask google-chrome
+brew install --cask rectangle
+brew install --cask visual-studio-code
+brew install --cask hyper
+brew install --cask insomnia
+brew install --cask runjs
+brew install --cask responsively
+brew install --cask mongodb-compass
+brew install --cask figma
+brew install --cask nucleo
+brew install --cask imageoptim
 
 # Remove outdated versions from the cellar
 brew cleanup
