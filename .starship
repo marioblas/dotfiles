@@ -1,17 +1,17 @@
-prompt_order = [
-  "username",
-  "hostname",
-  "directory",
-  "git_branch",
-  "git_commit",
-  "git_state",
-  "git_status",
-  "package",
-  "nodejs",
-  "cmd_duration",
-  "line_break",
-  "character",
-]
+format = """\
+  $username\
+  $hostname\
+  $directory\
+  $git_branch\
+  $git_commit\
+  $git_state\
+  $git_status\
+  $package\
+  $nodejs\
+  $cmd_duration\
+  $line_break\
+  $character\
+"""
 
 [username]
 style_root = "red"
@@ -34,12 +34,11 @@ style = "green"
 style = "yellow"
 
 [git_status]
-prefix = ""
-suffix = " "
 style = "purple"
 modified = "*"
 deleted = "×"
 stashed = "≡"
+format = "([$all_status$ahead_behind]($style))"
 
 [package]
 symbol = ""
@@ -53,4 +52,5 @@ style = "green"
 style = "yellow"
 
 [character]
-style_success = "#ff6ac1"
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
