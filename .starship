@@ -50,7 +50,6 @@ style = "green"
 
 [cmd_duration]
 style = "yellow"
-format = "[$duration]($style) "
 
 [character]
 success_symbol = "[❯](bold green)"
