@@ -38,7 +38,7 @@ style = "purple"
 modified = "*"
 deleted = "×"
 stashed = "≡"
-format = "([$all_status$ahead_behind]($style)) "
+format = '([$all_status$ahead_behind]($style) )'
 
 [package]
 symbol = ""
