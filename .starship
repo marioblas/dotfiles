@@ -45,7 +45,8 @@ symbol = ""
 style = "cyan"
 display_private = true
 
-[node]
+[nodejs]
+symbol = "⬢ "
 style = "green"
 
 [cmd_duration]
