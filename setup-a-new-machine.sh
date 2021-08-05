@@ -63,12 +63,12 @@ compaudit | xargs chmod g-w
 
 # Install Node Version Manager
 # https://github.com/nvm-sh/nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 # Install the latest release of node
 nvm install node
 
-# Install/update npm itself and npm packages.
+# Install/update npm packages.
 ./npm.sh
 
 ###############################################################################
