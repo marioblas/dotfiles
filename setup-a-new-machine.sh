@@ -61,6 +61,10 @@ compaudit | xargs chmod g-w
 # nvm, node & npm
 ###############################################################################
 
+# File to load nvm
+# https://github.com/nvm-sh/nvm#troubleshooting-on-macos
+touch ~/.zshrc
+
 # Install Node Version Manager
 # https://github.com/nvm-sh/nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
