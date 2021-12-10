@@ -39,6 +39,7 @@ brew install --cask google-chrome
 brew install --cask rectangle
 brew install --cask visual-studio-code
 brew install --cask hyper
+brew install --cask fig
 brew install --cask insomnia
 brew install --cask runjs
 brew install --cask responsively
