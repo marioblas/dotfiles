@@ -23,6 +23,9 @@ brew install zsh-autosuggestions
 # Check that it works by executing `which git`. It should return "/usr/local/bin/git"
 brew install git
 
+# Install GitHub CLI
+brew install gh
+
 # Install MongoDB
 brew install mongodb-community
 
@@ -42,6 +45,7 @@ brew install --cask hyper
 brew install --cask fig
 brew install --cask insomnia
 brew install --cask runjs
+brew install --cask flipper
 brew install --cask responsively
 brew install --cask mongodb-compass
 brew install --cask figma
