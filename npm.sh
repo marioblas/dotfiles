@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Update npm itself
-npm install -g npm@latest
-
 # Trash
 npm install -g trash-cli
 

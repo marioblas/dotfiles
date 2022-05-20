@@ -38,13 +38,13 @@ brew install --cask font-fira-code
 brew install --cask font-victor-mono
 
 # Install Casks
-brew install --cask google-chrome
 brew install --cask rectangle
+brew install --cask google-chrome
+brew install --cask brave-browser
 brew install --cask visual-studio-code
-brew install --cask hyper
+brew install --cask warp
 brew install --cask fig
 brew install --cask insomnia
-brew install --cask runjs
 brew install --cask flipper
 brew install --cask responsively
 brew install --cask mongodb-compass
