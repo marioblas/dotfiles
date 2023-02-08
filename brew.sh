@@ -50,7 +50,6 @@ brew install --cask responsively
 brew install --cask mongodb-compass
 brew install --cask figma
 brew install --cask nucleo
-brew install --cask imageoptim
 
 # Remove outdated versions from the cellar
 brew cleanup
