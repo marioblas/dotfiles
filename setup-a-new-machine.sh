@@ -58,7 +58,7 @@ curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-
 compaudit | xargs chmod g-w
 
 ###############################################################################
-# nvm, node & npm
+# nvm, node, npm, bun
 ###############################################################################
 
 # File to load nvm
@@ -67,13 +67,17 @@ touch ~/.zshrc
 
 # Install Node Version Manager
 # https://github.com/nvm-sh/nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 # Install the latest release of node
 nvm install node
 
 # Install/update npm packages.
 ./npm.sh
+
+# Install Bun
+# https://github.com/oven-sh/bun
+curl -fsSL https://bun.sh/install | bash
 
 ###############################################################################
 # Remaining configuration
