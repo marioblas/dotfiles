@@ -48,16 +48,14 @@ brew install --cask font-victor-mono
 # Install Casks
 brew install --cask rectangle
 brew install --cask google-chrome
-brew install --cask brave-browser
 brew install --cask visual-studio-code
+brew install --cask arc
 brew install --cask warp
-brew install --cask fig
-brew install --cask insomnia
 brew install --cask flipper
-brew install --cask responsively
-brew install --cask mongodb-compass
 brew install --cask figma
 brew install --cask nucleo
+brew install --cask responsively
+brew install --cask mongodb-compass
 
 # Remove outdated versions from the cellar
 brew cleanup
