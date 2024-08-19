@@ -47,11 +47,11 @@ brew install --cask font-victor-mono
 
 # Install Casks
 brew install --cask rectangle
+brew install --cask cloudflare-warp
 brew install --cask google-chrome
-brew install --cask visual-studio-code
 brew install --cask arc
+brew install --cask visual-studio-code
 brew install --cask warp
-brew install --cask flipper
 brew install --cask figma
 brew install --cask nucleo
 brew install --cask responsively
