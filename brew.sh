@@ -26,15 +26,12 @@ brew install git
 # Install GitHub CLI
 brew install gh
 
-# Install MongoDB
-brew install mongodb-community
-
 # Install WiFi Password
 brew install wifi-password
 
 # Install Cloudflare Tunnel
 # https://developers.cloudflare.com/pages/how-to/preview-with-cloudflare-tunnel
-brew install cloudflare/cloudflare/cloudflared
+brew install cloudflared
 
 # Expo Orbit
 # https://docs.expo.dev/build/orbit/
