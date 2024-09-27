@@ -1,5 +1,4 @@
 # Set language
-# Fixes zsh tab completion on hyper (https://github.com/zeit/hyper/issues/24)
 export LANG="es_ES.UTF-8";
 
 # Make vim the default editor
@@ -13,9 +12,6 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X";
-
-# Always enable colored `grep` output
-export GREP_OPTIONS="--color=auto";
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 # More info: https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
