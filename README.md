@@ -66,7 +66,7 @@ You can create a file `~/.extra` and add your private configuration.
 My `~/.extra` looks something like this:
 ```bash
 # Project aliases
-alias dotfiles="cd ~/Dev/projects/dotfiles"
+alias dotfiles="cd ~/Developer/projects/dotfiles"
 # ...
 ```
 Also you can use this file for override settings, functions and aliases.

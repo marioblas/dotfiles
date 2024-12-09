@@ -7,7 +7,7 @@ alias .....="cd ../../../.."
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Dev/projects"
+alias p="cd ~/Developer/projects"
 alias g="git"
 alias pg="echo 'Pinging Google' && ping www.google.com"
 
