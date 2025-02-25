@@ -28,7 +28,6 @@ xcode-select --install
 BREW_PREFIX=$(brew --prefix)
 
 # Switch to using brew-installed Zsh as default shell
-# Hyper runs system's login shell by default... it takes effect on next login
 if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
   echo "${BREW_PREFIX}/bin/zsh" | sudo tee -a /etc/shells;
   chsh -s "${BREW_PREFIX}/bin/zsh";

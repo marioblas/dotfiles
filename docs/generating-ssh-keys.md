@@ -13,7 +13,7 @@ ls -al ~/.ssh
 
 Create a new ssh key, using the provided email as a label.
 ```bash
-ssh-keygen -t rsa -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 Start the ssh-agent in the background.
@@ -21,16 +21,27 @@ Start the ssh-agent in the background.
 eval "$(ssh-agent -s)"
 ```
 
-Add your SSH private key to the ssh-agent.
+If you're using macOS Sierra 10.12.2 or later, you will need to modify your ~/.ssh/config file to automatically load keys into the ssh-agent and store passphrases in your keychain.
 ```bash
-ssh-add -K ~/.ssh/id_rsa
+vim ~/.ssh/config
+```
+
+```text
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+
+Add your SSH private key to the ssh-agent and store your passphrase in the keychain. If you created your key with a different name, or if you are adding an existing key that has a different name, replace id_ed25519 in the command with the name of your private key file.
+```bash
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ```
 
 ## 3. Adding a new SSH key to your service
 
 Copy the SSH key to your clipboard.
 ```bash
-pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
 Add SSH key to your service account.
