@@ -38,21 +38,20 @@ brew install cloudflared
 brew install expo-orbit
 
 # Install Fonts
-brew tap homebrew/cask-fonts
-brew install --cask font-fira-code
-brew install --cask font-victor-mono
-brew install --cask font-jetbrains-mono
+brew install font-fira-code
+brew install font-victor-mono
+brew install font-cascadia-code
 
 # Install Casks
-brew install --cask rectangle
-brew install --cask cloudflare-warp
-brew install --cask google-chrome
-brew install --cask arc
-brew install --cask visual-studio-code
-brew install --cask warp
-brew install --cask nucleo
-brew install --cask responsively
-brew install --cask mongodb-compass
+brew install rectangle
+brew install cloudflare-warp
+brew install google-chrome
+brew install arc
+brew install visual-studio-code
+brew install warp
+brew install nucleo
+brew install responsively
+brew install mongodb-compass
 
 # Remove outdated versions from the cellar
 brew cleanup
