@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # This symlinks all the dotfiles to ~/
-# it also symlinks ~/bin for easy updating
 
 # This is safe to run multiple times and will prompt you about anything unclear
 
@@ -128,8 +127,6 @@ print_success() {
 
 # Finds all .dotfiles in this folder
 declare -a FILES_TO_SYMLINK=$(find . -type f -maxdepth 1 -name ".*" -not -name .DS_Store -not -name .git | sed -e 's|//|/|' | sed -e 's|./.|.|')
-# Add in the binaries
-FILES_TO_SYMLINK="$FILES_TO_SYMLINK bin"
 
 main() {
   local i=""

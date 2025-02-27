@@ -41,10 +41,6 @@ Just `cd` to your `dotfiles` repository, add your new dotfiles and then run `sym
 - `.gitconfig`
 - `.gitignore`
 
-### Commands (~/bin)
-
-- Binaries that aren't via an npm/npx or homebrew.
-
 ### Manual run
 
 - `symlink-setup.sh`
