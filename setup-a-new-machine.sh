@@ -66,7 +66,7 @@ touch ~/.zshrc
 
 # Install Node Version Manager
 # https://github.com/nvm-sh/nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 # Install the latest release of node
 nvm install node
