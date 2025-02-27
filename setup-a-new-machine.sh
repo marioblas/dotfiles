@@ -40,9 +40,6 @@ fi;
 # Directory to store plugins
 mkdir ~/.zsh
 
-# Download Fast Syntax Highlighting
-git clone https://github.com/zdharma/fast-syntax-highlighting ~/.zsh/fast-syntax-highlighting
-
 # Download History config
 curl -o ~/.zsh/history.zsh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/history.zsh
 

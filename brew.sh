@@ -15,8 +15,9 @@ brew install zsh
 # Install Starship Propmpt
 brew install starship
 
-# Install Zsh Autosuggestions
+# Install Zsh Plugins
 brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 
 # Install updated Git
 # Note: Don't forget to export the PATH /usr/local/bin (included in .path)
