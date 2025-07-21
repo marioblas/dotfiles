@@ -9,6 +9,7 @@ format = """\
   $package\
   $nodejs\
   $cmd_duration\
+  $time\
   $line_break\
   $character\
 """
@@ -51,6 +52,9 @@ style = "green"
 
 [cmd_duration]
 style = "yellow"
+
+[time]
+disabled = false
 
 [character]
 success_symbol = "[❯](bold green)"
