@@ -146,6 +146,10 @@
 
 	rebase = false
 
+[push]
+
+	autoSetupRemote = true
+
 [merge]
 
 	# Include summaries of merged commits in newly created merge commit messages
