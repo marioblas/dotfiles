@@ -54,7 +54,7 @@ curl -o ~/.zsh/completion.zsh https://raw.githubusercontent.com/robbyrussell/oh-
 compaudit | xargs chmod g-w
 
 ###############################################################################
-# nvm, node, npm, bun
+# nvm, node, npm, pnpm, bun
 ###############################################################################
 
 # File to load nvm
@@ -70,6 +70,10 @@ nvm install node
 
 # Install/update npm packages.
 ./npm.sh
+
+# Install pnpm
+# https://pnpm.io/es/installation
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 # Install Bun
 # https://github.com/oven-sh/bun
