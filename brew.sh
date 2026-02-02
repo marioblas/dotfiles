@@ -50,10 +50,9 @@ brew install google-chrome
 brew install arc
 brew install visual-studio-code
 brew install warp
+brew install mole
 brew install iina
-brew install nucleo
 brew install responsively
-brew install mongodb-compass
 
 # Remove outdated versions from the cellar
 brew cleanup
