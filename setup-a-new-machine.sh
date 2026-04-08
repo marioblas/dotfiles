@@ -80,6 +80,16 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 curl -fsSL https://bun.sh/install | bash
 
 ###############################################################################
+# AI coding agents
+###############################################################################
+
+# Install OpenCode
+curl -fsSL https://opencode.ai/install | bash
+
+# Install Claude Code
+curl -fsSL https://claude.ai/install.sh | bash
+
+###############################################################################
 # Remaining configuration
 ###############################################################################
 

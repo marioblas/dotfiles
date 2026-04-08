@@ -49,7 +49,7 @@ brew install cloudflare-warp
 brew install google-chrome
 brew install arc
 brew install visual-studio-code
-brew install warp
+brew install ghostty
 brew install mole
 brew install iina
 brew install responsively

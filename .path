@@ -1,2 +1,6 @@
 # Add Homebrew binaries to the `$PATH`
 export PATH="/usr/local/bin:$PATH";
+
+# Add Claude Code binary to the `$PATH`
+export PATH="$HOME/.local/bin:$PATH"
+
