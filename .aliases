@@ -89,7 +89,5 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-# Npx aliases
-alias serve="npx serve"
-alias npm-update="npx npm-check -u"
-alias yarn-update="yarn upgrade-interactive --latest"
+# npm aliases
+alias npm=pnpm
