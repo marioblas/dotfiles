@@ -1,16 +1,10 @@
 #!/usr/bin/env bash
 
 # Trash
-npm install -g trash-cli
+pnpm add -g trash-cli
 
 # Fkill
-npm install -g fkill-cli
-
-# Vercel
-npm install -g vercel
-
-# Firebase tools
-npm install -g firebase-tools
+pnpm add -g fkill-cli
 
 # ni - use the right package manager
-npm install -g @antfu/ni
+pnpm add -g @antfu/ni
