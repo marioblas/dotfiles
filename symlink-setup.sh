@@ -127,7 +127,10 @@ print_success() {
 
 # Finds all .dotfiles in this folder
 FILES_TO_SYMLINK=$(find . -type f -maxdepth 1 -name ".*" -not -name .DS_Store -not -name .git | sed -e 's|//|/|' | sed -e 's|./.|.|')
-FILES_TO_SYMLINK+=(".claude/CLAUDE.md") # add in claude config
+
+FILES_TO_SYMLINK+=(".claude/CLAUDE.md") # add in claude instructions
+FILES_TO_SYMLINK+=(".claude/settings.json") # add in claude settings
+FILES_TO_SYMLINK+=(".claude/statusline.sh") # add in claude statusline
 
 main() {
   local i=""
