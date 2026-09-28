@@ -70,8 +70,8 @@ effort=$(echo "$input" | jq -r '.effort.level // empty')
 case "$effort" in
     max)    effort_str="${red}max${reset}" ;;
     xhigh)  effort_str="${red}xhigh${reset}" ;;
-    high)   effort_str="${red}high${reset}" ;;
-    medium) effort_str="${yellow}med${reset}" ;;
+    high)   effort_str="${yellow}high${reset}" ;;
+    medium) effort_str="${blue}medium${reset}" ;;
     low)    effort_str="${green}low${reset}" ;;
     "")     effort_str="" ;;
     *)      effort_str="${dim}${effort}${reset}" ;;
